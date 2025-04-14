@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="loader">
+    <div class="weather-logo"></div>
+    <p>Loading Weather App...</p>
+  </div>
+
+  <div class="weather-container" style="display: none;">
+    <h2>Weather Checker</h2>
+    <input type="text" id="locationInput" placeholder="Enter location...">
+    <button onclick="getWeather()">Check</button>
+    <div class="result" id="weatherResult"></div>
+  </div>
+
+  <footer style="display: none;">
+    <p>This is made by Nagendra Reddy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
